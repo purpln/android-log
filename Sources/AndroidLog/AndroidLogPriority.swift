@@ -1,4 +1,4 @@
-import CAndroidLog
+import Android
 
 public enum AndroidLogPriority: CInt {
     case unknown = 0
