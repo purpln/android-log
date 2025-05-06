@@ -1,7 +1,7 @@
 import Android
 
-public enum AndroidLogPriority: CInt {
-    case unknown = 0
+public enum AndroidLogPriority: CInt, Equatable, Hashable, Sendable, Codable {
+    case unknown
     case `default`
     case verbose
     case debug
